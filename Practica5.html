@@ -11,65 +11,68 @@
 <body>
 	<h2>Formulario de registro de Alumnos de Nuevo Ingreso</h2>
 	
-	<p>Nombre Completo:
+	<form>	
+		<p>Nombre Completo:
 	
-		<input type="text"><br>
+			<input type="text"><br>
 		
-	</p>
+		</p>
 
-	<p>Correo Electrónico:
+		<p>Correo Electrónico:
 	
-		<input type="text"><br>
+			<input type="text"><br>
 		
-	</p>
+		</p>
 
-	<p>Contraseña:
+		<p>Contraseña:
 	
-		<input type="password"><br>
+			<input type="password"><br>
 		
-	</p>
+		</p>
 
-	<p>Género:<br>
+		<p>Género:<br>
 
-		<input type = "radio"> Hombre <br>
-		<input type = "radio"> Mujer <br>
-		<input type = "radio"> Otro <br>
+			<input name="Genero" type="radio" value="Hombre"><br>
+			<input name="Genero" type="radio" value="Mujer"><br>
+			<input name="Genero" type="radio" value="Otro"><br>
 	
-	</p>
+		</p>
 
-	<p>Intereses:<br>
+		<p>Intereses:<br>
 
-		<input type = "checkbox"> Deportes <br>
-		<input type = "checkbox"> Música <br>
-		<input type = "checkbox"> Tecnología <br>
+			<input type = "checkbox"> Deportes <br>
+			<input type = "checkbox"> Música <br>
+			<input type = "checkbox"> Tecnología <br>
 	
-	</p>
+		</p>
 
-	<p>Carrera a la que aspiras:	
+		<p>Carrera a la que aspiras:	
 
-		<select>
+			<select>
 
-			<option> Ingeniería en Sistemas Computacionales </option>
-			<option> Ingeniaría Civil </option>
-			<option> Arquitectura </option>
-			<option> Ingeniaría en Mecatrónica </option>
+				<option> Ingeniería en Sistemas Computacionales </option>
+				<option> Ingeniaría Civil </option>
+				<option> Arquitectura </option>
+				<option> Ingeniaría en Mecatrónica </option>
 	
-		</select>	
+			</select>	
 
-	</p>
+		</p>
 
-	<p>Comentarios adicionales:<br>
+		<p>Comentarios adicionales:<br>
 	
-		<textarea rows = "10" cols = "50"> </textarea>
+			<textarea rows = "10" cols = "50"> </textarea>
 	
-	</p>
+		</p>
 
-	<p>
+		<p>
 	
-		<input type="submit" value="Enviar Formulario">
-		<input type="submit" value="Reestablecer Formulario">
+			<input type="submit" value="Enviar Formulario">
+			<input type="reset" value="Reestablecer Formulario">
 
-	</p>
+		</p>
+
+	</form>
 
 </body>
 

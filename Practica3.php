@@ -38,21 +38,21 @@
 					Esto es una división 10/5=$a4<br>
 					El residuo de esta división es 10%5=$a5<br><br>";
 			
-			$a6=$a++;
-			$b1=++$b;
-			$c1=$c--;
-			$d1=--$d;
+			$a++;
+			++$b;
+			$c--;
+			--$d;
 
 			ECHO	"<b>OPERADORES DE INCREMENTO Y DECREMENTO</b><br>
-					La variable a vale 10, sin embargo si aplico un Posincremento el resultado será el mismo ya que el incremento le hace después $ a ++: $a6<br>
-					La variable b vale 5, sin embargo si aplico un Preincremento el resultado cambia ya que el incremento lo hace en el momento ++$ b: $b1<br>
-					La variable c vale 15, sin embargo si aplico un Posdecremento el resultado será el mismo ya que el decremento lo hace después $ c --: $c1<br>
-					La variable d vale 20, sin embargo si aplico un Predecremento el resultado cambia ya que el decremento lo hace en el momento --$ d: $d1<br><br>";
+					La variable a vale 10, sin embargo si aplico un Posincremento el resultado será el mismo ya que el incremento le hace después $ a ++: $a<br>
+					La variable b vale 5, sin embargo si aplico un Preincremento el resultado cambia ya que el incremento lo hace en el momento ++$ b: $b<br>
+					La variable c vale 15, sin embargo si aplico un Posdecremento el resultado será el mismo ya que el decremento lo hace después $ c --: $c<br>
+					La variable d vale 20, sin embargo si aplico un Predecremento el resultado cambia ya que el decremento lo hace en el momento --$ d: $d<br><br>";
 			
-			$a6=$a--;
-			$b1=--$b;
-			$c1=$c++;
-			$d1=++$d;
+			$a--;
+			--$b;
+			$c++;
+			++$d;
 			
 			ECHO	"<b>OPERADORES DE COMPARACIÓN</b><br>
 					Nos dirán si las variables cumplen con las condiciones o no<br>

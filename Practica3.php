@@ -141,9 +141,9 @@
 			$a*=5;
 			ECHO	"Variable a con el operador *=5: $a<br>";
 			$a/=5;
-			ECHO	"Variable a con el operador *=5: $a<br>";
+			ECHO	"Variable a con el operador /=5: $a<br>";
 			$a%=5;
-			ECHO	"Variable a con el operador *=5: $a<br><br>";
+			ECHO	"Variable a con el operador %=5: $a<br><br>";
 
 			$a=10;
 					

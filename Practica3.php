@@ -16,15 +16,15 @@
 			$d=20;		
 			$e=10;
 
-			function showtrue(){
-				ECHO "true<br>";
+			function TrueOrFalse($condicion){
+				if ($condicion) {
+					ECHO "true<br>";
+				}
+				else {
+					ECHO "false<br>";
+				}
 			}
 
-			function showfalse(){
-				ECHO "false<br>";
-			}
-
-			
 			$a1=$a+5;
 			$a2=$a-5;
 			$a3=$a*5;
@@ -58,76 +58,39 @@
 					Nos dirán si las variables cumplen con las condiciones o no<br>
 					La variabe a es igual a 5*2 $ a == 5*2: ";
 			
-			if ($a == 5*2) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a == 5*2);
 			
 			ECHO 	"La variable a es idéntica a la variable e $ a === $ e: ";
 
-			if ($a === $e) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a === $e);
 
 			ECHO 	"La variable a es mayor que la variable b $ a > $ b: ";
 
-			if ($a > $b) {
-				showtrue();
-			} else {
-				showfalse();
-			}
-
+			TrueOrFalse ($a > $b);
 
 			ECHO 	"La variable a es menor que la variable c $ a < $ c: ";
 
-			if ($a < $c) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a < $c);
 
 			ECHO 	"La variable a es distinta a la variable d $ a != $ d: ";
 
-			if ($a != $d) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a != $d);
 
 			ECHO 	"La variable a es distinta a la variable d $ a <> $ d: ";
 
-			if ($a <> $d) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a <> $d);
 
 			ECHO 	"La variable a no es idéntica a la variable e $ a !== $ e: ";
 
-			if ($a !== $e) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a !== $e);
 
 			ECHO 	"La variable a es mayor o igual que la variable b $ a >= $ b: ";
 
-			if ($a >= $b) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a >= $b);
 
 			ECHO 	"La variable a es menor o igual que la variable b $ a <= $ b: ";
 
-			if ($a <= $b) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a <= $b);
 
 			ECHO 	"<br>";
 
@@ -151,71 +114,39 @@
 					Nos dirán si las variables cumplen con más de una condición a la vez o no<br>
 					La variable a es mayor que b y menor que c usando $ a > $ b && $ a < $ c: ";
 			
-			if ($a > $b && $a < $c) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a > $b && $a < $c);
 
 			ECHO	"La variable a es mayor que b y mayor que c usando $ a > $ b AND $ a > $ c: ";
 
-			if ($a > $b AND $a > $c) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a > $b AND $a > $c);
 
 			ECHO	"La variable a es mayor que d o mayor que e usando $ a > $ d || $ a > $ e: ";
 
-			if ($a > $d || $a > $e) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse ($a > $d || $a > $e);
 
 			ECHO	"La variable a es menor que d o menor que e usando $ a < $ d OR $ a < $ e: ";
 
-			if ($a < $d OR $a < $e) {
-				showtrue();
-			} else {
-				showfalse();
-			}
-
+			TrueOrFalse ($a < $d OR $a < $e);
+			
 			ECHO 	"<br>";
 
 			ECHO	"Ahora vamos a usar el operador ! al principio de las expresiones anteriores para visualizar el resultado opuesto: <br><br>";
 
 			ECHO 	"La variable a es mayor que b y menor que c usando $ a > $ b && $ a < $ c: ";
 			
-			if (!($a > $b && $a < $c)) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse (!($a > $b && $a < $c));
 
 			ECHO	"La variable a es mayor que b y mayor que c usando $ a > $ b AND $ a > $ c: ";
 
-			if (!($a > $b AND $a > $c)) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse (!($a > $b AND $a > $c));
 
 			ECHO	"La variable a es mayor que d o mayor que e usando $ a > $ d || $ a > $ e: ";
 
-			if (!($a > $d || $a > $e)) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse (!($a > $d || $a > $e));
 
 			ECHO	"La variable a es menor que d o menor que e usando $ a < $ d OR $ a < $ e: ";
 
-			if (!($a < $d OR $a < $e)) {
-				showtrue();
-			} else {
-				showfalse();
-			}
+			TrueOrFalse (!($a < $d OR $a < $e));
 
 			ECHO	"<br>";
 

@@ -7,8 +7,9 @@
 	</head>
 
 	<body>
-
-		<img src="Practica7Andres.jpg" height="800" width="1080">
+		<h1>Creacion de una BD</h1>
+		<br>
+		<img src="Practica7Andres.jpg" height="600" width="1080">
 
 	</body>
 

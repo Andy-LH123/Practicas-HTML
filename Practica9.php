@@ -16,7 +16,7 @@
 			$conexion=mysqli_connect($servidor,$usuario,$password,$bd);
 			$tabla="Alumno";
 
-			$consulta="create table $tabla (ID_Alumno int auto_increment primary key, Nombre varchar(50));";
+			$consulta="create table $tabla (ID_Alumno int auto_increment primary key, Nombre varchar(50))";
 
 			$resultado=mysqli_query($conexion,$consulta);
 			

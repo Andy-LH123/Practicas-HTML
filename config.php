@@ -3,7 +3,6 @@
     $servidor="localhost";
     $usuario="root";
     $password="";
-    $bd="Programacion_Web_Andres_php";
+    $bd="practicas_andres";
     mysqli_report(MYSQLI_REPORT_OFF);
-
 ?>
